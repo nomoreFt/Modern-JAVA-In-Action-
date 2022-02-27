@@ -1,6 +1,6 @@
 > 왜 주제를 자바8로 정하였는가?
 
-자바 역사를 통틀어 가장 큰 변화가 자바8에서 일어났다. 자바 9에서도 중요한 변화가 있었지만, 8만큼 획기적이거나 생산성이 변한 것은 아니다. 자바 10에서는 형 추론과 관련해 약가느이 변화만 일어났다.
+자바 역사를 통틀어 가장 큰 변화가 자바8에서 일어났다. 자바 9에서도 중요한 변화가 있었지만, 8만큼 획기적이거나 생산성이 변한 것은 아니다. 자바 10에서는 형 추론과 관련해 약간의 변화만 일어났다.
 
 > 자바8의 획기적인 변화란?
 
@@ -15,9 +15,8 @@
 
 ex ) 간결한 코드 변화 예시
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d739cf4-d996-4c9c-8569-25d5e01d4e58/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9d739cf4-d996-4c9c-8569-25d5e01d4e58/Untitled.png)
-
 ```java
+//Collections.sort를 할 때,
 Collections.sort(inventory, new Comparator<Apple>() {
 	public int compare(Apple a1, Apple a2) {
 			return a1.getWeight().compareTo(a2.getWeight());
@@ -267,6 +266,20 @@ button.setOnAction((ActionEvent event) -> label.setTExt("Sent!!")); 이런식
 
 변하지 않는 구조체 (메서드, 클래스) 등은 '**이급 시민'** 이라고 부른다. 이런 이급 시민인 메서드를 런타임시에 전달할 수 있다면 프로그래밍에 유용하게 사용할 수 있다.
 
+	
+	
+	
+	###############################
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 > 람다
 
 ## 람다란?
